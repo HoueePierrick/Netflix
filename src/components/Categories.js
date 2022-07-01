@@ -7,7 +7,7 @@ const Content = () => {
                 <div className="CategoryTitle">{e.category}</div>
                 <div className="ImageWall">
                 {e.images.map((f) => {
-                    return (<img src={f} className="FilmCover"></img>)
+                    return (<img src={f} className="FilmCover" alt="Film cover image"></img>)
                 })}
                 </div>
             </div>)
